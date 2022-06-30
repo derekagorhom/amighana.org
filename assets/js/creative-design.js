@@ -47,6 +47,11 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   } 
+ // Facts counter
+ $('[data-toggle="counter-up"]').counterUp({
+  delay: 10,
+  time: 2000
+});
 
   function myFunction() {
     var dots = document.getElementById("dot");
